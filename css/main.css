@@ -1,1 +1,8 @@
-y
+
+body {
+  background-color: #232828;
+  color:#FFFFFF;
+}
+nav ul, footer ul {
+  font-family:'Helbetica','Arial','Sans-Serif';
+}
