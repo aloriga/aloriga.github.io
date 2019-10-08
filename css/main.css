@@ -1,8 +1,11 @@
-
-body {
-  background-color: #232828;
-  color:#FFFFFF;
-}
-nav ul, footer ul {
-  font-family:'Helbetica','Arial','Sans-Serif';
-}
+        img{
+            height:300px;
+            width:300px;
+        }
+        #Calculus3{
+            font-size:35px;
+        }
+        .small{
+            height:30px;
+            width:150px;
+        }
