@@ -9,3 +9,11 @@
             height:30px;
             width:150px;
         }
+        body{
+            background:black;
+            color:white;
+        }
+        .small > p {
+            height:45px;
+            width:45px;
+        }       
