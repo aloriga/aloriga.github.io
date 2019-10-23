@@ -1,19 +1,21 @@
-        img{
-            height:300px;
-            width:300px;
-        }
-        #Calculus3{
-            font-size:35px;
-        }
-        .small{
-            height:30px;
-            width:150px;
-        }
-        body{
-            background:black;
-            color:white;
-        }
-        .small > p {
-            height:45px;
-            width:45px;
-        }       
+img{
+  height:300px;
+  width:300px;
+  }
+#Calculus3{
+  font-size:35px;
+  }
+  .small{
+  height:30px;
+  width:150px;
+  }
+.header:hover{
+  font-size: 50px;
+  color:blue;
+}
+.header + h3{
+  color:blue;
+}
+body{
+  background-color:aquamarine;
+}
