@@ -9,11 +9,11 @@ body{
   background-color:Lightblue;
 }
 .Lopez{
-  transform: translate(650px,0px)
+  transform: translate(550px,0px)
 }
 .Logo{
   height: 200px; width: 200px;
-  transform: translate(-200px,-300px)
+  transform: translate(-250px,-300px)
 }
 a:hover {
   font-size:50px;
