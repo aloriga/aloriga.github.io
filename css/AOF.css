@@ -24,11 +24,11 @@ ol > li:hover{
 ul > li:hover{
   font-size:20px
 }
-@keyframes color{
-  from{background-color:blue;}
-  to{backgroud-color:green;}
+@keyframes sizeChanger{
+  from{background-color:50px;}
+  to{font-size:100px;}
 }
-h4:hover {
-    animation-name: color;
+.mainHeader:active {
+    animation-name: sizeChanger;
   animation-duration: 4s;
 }
