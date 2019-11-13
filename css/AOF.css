@@ -28,7 +28,7 @@ ul > li:hover{
   from{background-color:50px;}
   to{font-size:100px;}
 }
-.mainHeader:active {
+h4:hover {
     animation-name: sizeChanger;
   animation-duration: 4s;
 }
