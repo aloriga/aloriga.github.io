@@ -13,7 +13,7 @@ body{
 }
 .Logo{
   height: 200px; width: 200px;
-  transform: translate(-150px,-300px)
+  transform: translate(-200px,-300px)
 }
 a:hover {
   font-size:50px;
