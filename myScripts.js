@@ -16,14 +16,13 @@ for(var i = 0; i < terms; i++){
   sqrt = true;
 }
 }
-  if(sqrt = false){
+  if(sqrt == false){
     document.write("<br> Found no sqrt");
-    var nums = randonInt(min,max);
+    var nums = getRandomInt(min,max);
     while(Math.round(Math.sqrt(nums)) != Math.sqrt(nums)){
-    nums = randonInt(min,max);
+    nums = getRandomInt(min,max);
     }
-    document.write("<br> Here is a sqrt of " + nums + "which is " + Math.sqrt(nums));
+    document.write("<br> Here is a sqrt of " + nums + " which is " + Math.sqrt(nums));
     }
   }
 randomNumTerms(1,25,8);
-
