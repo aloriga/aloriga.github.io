@@ -25,4 +25,12 @@ for(var i = 0; i < terms; i++){
     document.write("<br> Here is a sqrt of " + nums + " which is " + Math.sqrt(nums));
     }
   }
-randomNumTerms(1,25,8);
+// randomNumTerms(1,25,8);
+function htmlRandomNumTerms(){
+    var min = document.getElementById("min").value;
+    var max = document.getElementById("max").value;
+    var numTerms = document.getElementById("numTerms").value;
+  
+  var test1 = document.getElementById("test1");
+  test1.innerHTML = randomNumTerms(min,max,numTerms);
+}
