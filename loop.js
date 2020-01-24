@@ -1,7 +1,7 @@
 function htmlJump(){
-var start = document.getElementIdBy("start").value;
-var end = document.getElementIdBy("end").value;
-var jump = document.getElementByIdBy("jump").value;
+var start = document.getElementById("start").value;
+var end = document.getElementById("end").value;
+var jump = document.getElementById("jump").value;
 jump(start,end,jump);
 }
 function jump(start,end,jump){
