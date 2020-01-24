@@ -31,4 +31,3 @@ function htmlRandomNumTerms(){
     var numTerms = document.getElementById("numTerms").value;
   document.getElementById("rT").innerHTML = randomNumTerms(min,max,numTerms);
 }
-document.getElementById("bT").onclick = htmlRandomNumTerms;
