@@ -1,11 +1,19 @@
+    
+
+function jumpS(start,end,jump){
+for (var i = start; i <= end; i += jump){
+  document.write(i + "<br>");
+}
+}
 function htmlJump(){
 var start = document.getElementById("start").value;
 var end = document.getElementById("end").value;
 var jump = document.getElementById("jump").value;
-jump(start,end,jump);
-}
-function jump(start,end,jump){
-for (var i = start; i <= end; i += ((end-start)/jump)){
-  document.write(i);
-}
+  console.log(typeof start);
+  console.log(typeof end);
+  console.log(typeof jump);
+  start = Number(start);
+  end = Number(end);
+  jump = Number(jump);
+jumpS(start,end,jump);
 }
