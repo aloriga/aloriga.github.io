@@ -29,7 +29,6 @@ function htmlRandomNumTerms(){
     var min = document.getElementById("min").value;
     var max = document.getElementById("max").value;
     var numTerms = document.getElementById("numTerms").value;
-  
-  var test1 = document.getElementById("test1");
-  test1.innerHTML = randomNumTerms(min,max,numTerms);
+  document.getElementById("test1").innerHTML = randomNumTerms(min,max,numTerms);
 }
+document.getElementById("buttonR").onclick = htmlRandomNumTerms;
