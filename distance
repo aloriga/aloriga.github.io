@@ -1,0 +1,18 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <script src = ""></script>
+  </head>
+  <body>
+    <h1> JS Distance</h1>
+    <label>Point X<sub>1</sub></label> <input type = "text" id = "X1" onchange = "toFixed()" onload = "toStart()">
+    <label>Point Y<sub>1</sub></label> <input type = "text" id = "Y1" onchange = "toFixed()" onload = "toStart()">
+    <span id = "orderPair1">   </span>
+    <br>
+    <label>Point X<sub>2</sub></label> <input type = "text" id = "X2" onchange = "toFixed()" onload = "toStart()">
+    <label>Point Y<sub>2</sub></label> <input type = "text" id = "Y2" onchange = "toFixed()" onload = "toStart()">
+    <span id = "orderPair2">   </span>
+      <br>
+    <p>Distance: <span id = "distance"> </span></p>
+      </body>
+</html>
